@@ -1,18 +1,18 @@
 // Abstracts
 @use "./../abstracts/__abstracts-dir" as ab;
 
-// body {
-//   min-width: 340px;
-//   background-color: ab.$dark-blue;
-// }
+body {
+  min-width: 375px;
+  background-color: ab.$light-gray;
+}
 
-// .card {
-//   margin: 7.5rem 1rem 0 1rem;
-// }
+.card {
+  margin: 5.25rem 2rem 0 2rem;
+  max-width: 320px;
+}
 
-// @media (min-width: 600px){  
-//   .card {
-//     margin: 13.94rem auto 0 auto;
-//     max-width: 33.75rem;
-//   }
-// }
+@media (min-width: 380px){  
+  .card {
+    margin: 5.25rem auto 0 auto;
+  }
+}

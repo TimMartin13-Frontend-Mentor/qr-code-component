@@ -1,14 +1,24 @@
 // Abstracts
 @use "./../abstracts/__abstracts-dir" as ab;
 
-// .card {
-//   background-color: ab.$dark-grayish-blue;
-//   border-radius: 0.7rem;
-//   display:flex;
-//   align-items: flex-end;
-//   justify-content: center;
-// }
+.card {
+  background-color: ab.$white;
+  border-radius: 0.7rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
+.image-container {
+  margin: 1rem;
+}
+
+.qr-code {
+  border-radius: 0.7rem;
+  width: 100%;
+  object-fit: cover;
+}
 // .card-container {
 //   position: relative;
 //   display: flex;
