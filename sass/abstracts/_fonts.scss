@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$outfit: 'Outfit', sans-serif;;
+
+body {
+  font-family: $outfit;
+  font-size: 15px;
+}
+
+// .title {
+//   font-size: 0.7rem;
+//   text-transform: uppercase;
+//   letter-spacing: 0.2rem;
+// }

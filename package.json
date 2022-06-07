@@ -1,0 +1,21 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch sass/main.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimMartin13-Frontend-Mentor/qr-code-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimMartin13-Frontend-Mentor/qr-code-component/issues"
+  },
+  "homepage": "https://github.com/TimMartin13-Frontend-Mentor/qr-code-component#readme"
+}
