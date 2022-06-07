@@ -6,6 +6,18 @@ body {
   font-size: 15px;
 }
 
+.title {
+  font-size: 1.4rem;
+}
+
+.description {
+  font-size: 0.95rem;
+}
+
+.attribution {
+  font-size: 0.7rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +27,18 @@ body {
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+}
+
+.title {
+  font-size: 1.4rem;
+}
+
+.description {
+  font-size: 0.95rem;
+}
+
+.attribution {
+  font-size: 0.7rem;
 }
 
 body {
@@ -27,7 +51,7 @@ body {
   max-width: 320px;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 375px) {
   .card {
     margin: 5.25rem auto 0 auto;
   }
@@ -35,6 +59,18 @@ body {
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+}
+
+.title {
+  font-size: 1.4rem;
+}
+
+.description {
+  font-size: 0.95rem;
+}
+
+.attribution {
+  font-size: 0.7rem;
 }
 
 .card {
@@ -54,6 +90,29 @@ body {
   border-radius: 0.7rem;
   width: 100%;
   object-fit: cover;
+}
+
+.text-container {
+  margin: 0 2rem;
+  padding: 0.5rem 0 1.5rem 0;
+}
+
+.title {
+  color: hsl(218deg, 44%, 22%);
+}
+
+.description {
+  padding: 1rem 0;
+  color: hsl(220deg, 15%, 55%);
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }
 
 /*# sourceMappingURL=style.css.map */
